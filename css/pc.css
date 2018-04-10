@@ -1,0 +1,21 @@
+#flex-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+nav {
+  flex-basis: 160px;
+  flex-grow: 1;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 0.5em;
+}
+
+main {
+  flex-basis: 320px;
+  flex-grow: 4;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 0.5em;
+}
