@@ -131,6 +131,11 @@ div.words div.content, div.words p.content {
   padding: 0.25em;
 }
 
+div.words div.content p.datetime, div.words p.content p.datetime {
+  color: #7f7f7f;
+  text-align: right;
+}
+
 p.img {
   line-height: 1em;
   overflow: hidden;
