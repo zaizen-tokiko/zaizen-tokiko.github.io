@@ -316,6 +316,16 @@ var {
   margin-top: 0.5em;
 }
 
+.cinderella-post-tag {
+  background-color: #999999;
+  border-radius: 0.75em;
+  color: #ffffff;
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-shadow: 1px 1px 0 #36a6fd, -1px 1px 0 #36a6fd, 1px -1px 0 #36a6fd, -1px -1px 0 #36a6fd;
+}
+
 #flex-container {
   display: flex;
 }
