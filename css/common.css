@@ -106,8 +106,34 @@ h4 + div {
   margin-top: 0.75rem;
 }
 
-div.words {
+div.touch, div.words {
   margin-top: 0.5em;
+}
+
+div.touch.wait, div.words.wait {
+  margin-top: 2em;
+}
+
+div.touch div.content, div.touch p.content {
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  padding: 0.25em;
+}
+
+div.touch.choice-1 div.content, div.touch.choice-1 p.content {
+  background: linear-gradient(white, #fbd5e3);
+  border-color: #ea1a68;
+}
+
+div.touch.choice-2 div.content, div.touch.choice-2 p.content {
+  background: linear-gradient(white, #666666);
+  border-color: #000000;
+}
+
+div.touch.choice-3 div.content, div.touch.choice-3 p.content {
+  background: linear-gradient(white, #666666);
+  border-color: #000000;
 }
 
 div.words p.name {
