@@ -126,6 +126,10 @@ hr.cut {
   width: 0.75em;
 }
 
+div.choices div.touch {
+  display: inline-block;
+}
+
 div.touch div.content, div.touch p.content {
   border-style: solid;
   border-width: 2px;
@@ -133,22 +137,32 @@ div.touch div.content, div.touch p.content {
   padding: 0.25em;
 }
 
-div.touch.choice-1 div.content, div.touch.choice-1 p.content {
+div.touch.mobage.choice-1 div.content, div.touch.mobage.choice-1 p.content {
+  background: #c7f5ff;
+  border-color: #44aeff;
+}
+
+div.touch.mobage.choice-2 div.content, div.touch.mobage.choice-2 p.content {
+  background: #ffdbe0;
+  border-color: #dd2f2f;
+}
+
+div.touch.sl-stage.choice-1 div.content, div.touch.sl-stage.choice-1 p.content {
   background: linear-gradient(white, #fbd5e3);
   border-color: #ea1a68;
 }
 
-div.touch.choice-2 div.content, div.touch.choice-2 p.content {
+div.touch.sl-stage.choice-2 div.content, div.touch.sl-stage.choice-2 p.content {
   background: linear-gradient(white, #666666);
   border-color: #000000;
 }
 
-div.touch.choice-3 div.content, div.touch.choice-3 p.content {
+div.touch.sl-stage.choice-3 div.content, div.touch.sl-stage.choice-3 p.content {
   background: linear-gradient(white, #666666);
   border-color: #000000;
 }
 
-div.words p.name {
+div.words p.name, div.item p.name {
   border-left-style: solid;
   border-left-width: 1px;
   border-left-color: #7f7f7f;
@@ -162,21 +176,25 @@ div.words p.name {
   padding: 0.25em;
 }
 
-div.words div.content, div.words p.content {
+div.words div.content, div.words p.content, div.item div.content, div.item p.content {
   border-style: solid;
   border-width: 1px;
   border-color: #7f7f7f;
   padding: 0.25em;
 }
 
-div.words div.content p.datetime, div.words p.content p.datetime {
+div.words div.content p.datetime, div.words p.content p.datetime, div.item div.content p.datetime, div.item p.content p.datetime {
   color: #7f7f7f;
   text-align: right;
 }
 
-div.words div.content p.shout {
+div.words div.content p.shout, div.item div.content p.shout {
   font-size: 150%;
   line-height: 150%;
+}
+
+div.words + p, div.item + p {
+  margin-top: 0.5em;
 }
 
 p.img {
