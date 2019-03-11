@@ -1,5 +1,5 @@
 @charset "UTF-8";
-a, body, div, em, footer, h1, h2, h3, h4, header, html, img, ins, li, main, nav, p, span, sub, sup, table, tbody, td, th, thead, ul, var {
+a, body, div, em, footer, h1, h2, h3, h4, h5, header, html, img, ins, li, main, nav, p, span, sub, sup, table, tbody, td, th, thead, ul, var {
   background-color: transparent;
   color: inherit;
   font-family: inherit;
@@ -103,6 +103,16 @@ h4 {
 
 h4 + div {
   margin-left: 3rem;
+  margin-top: 0.75rem;
+}
+
+h5 {
+  margin-left: 3rem;
+  margin-top: 0.75rem;
+}
+
+h5 + div {
+  margin-left: 4rem;
   margin-top: 0.75rem;
 }
 
