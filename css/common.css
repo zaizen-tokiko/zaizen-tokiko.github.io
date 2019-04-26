@@ -157,6 +157,22 @@ div.touch.mobage.choice-2 div.content, div.touch.mobage.choice-2 p.content {
   border-color: #dd2f2f;
 }
 
+div.touch.mobage.choice-idol-diagnosis div.content, div.touch.mobage.choice-idol-diagnosis p.content {
+  background: white;
+  border-color: #7f7f7f;
+  border-radius: 1em;
+  color: white;
+  text-shadow: 1px 1px 0 #7f7f7f, -1px 1px 0 #7f7f7f, 1px -1px 0 #7f7f7f, -1px -1px 0 #7f7f7f;
+}
+
+div.touch.mobage.choice-idol-diagnosis.select div.content, div.touch.mobage.choice-idol-diagnosis.select p.content {
+  background: linear-gradient(white, #f24aa8);
+  border-color: #130387;
+  border-radius: 1em;
+  color: white;
+  text-shadow: 1px 1px 0 #6b1035, -1px 1px 0 #6b1035, 1px -1px 0 #6b1035, -1px -1px 0 #6b1035;
+}
+
 div.touch.sl-stage.choice-1 div.content, div.touch.sl-stage.choice-1 p.content {
   background: linear-gradient(white, #fbd5e3);
   border-color: #ea1a68;
