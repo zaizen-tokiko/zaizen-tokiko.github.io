@@ -116,11 +116,11 @@ h5 + div {
   margin-top: 0.75rem;
 }
 
-div.touch, div.words {
+div.touch, div.words, div.place, div.telop {
   margin-top: 0.5em;
 }
 
-div.touch.wait, div.words.wait {
+div.touch.wait, div.words.wait, div.place.wait, div.telop.wait {
   margin-top: 2em;
 }
 
